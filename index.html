@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfólio profissional de Gabryella Freire, acadêmica em Medicina Veterinária e Administração.">
   <title>Gabryella Freire | Landing page</title>
-  <link rel="icon" href="favicon.jpeg" type="image/png">
+  <link rel="icon" href="favicon.png" type="image/png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,12 @@
 
   <header class="site-header" id="topo">
     <nav class="nav container" aria-label="Navegação principal">
-      <a class="brand" href="#home" aria-label="Ir para o início">Gabryella Freire</a>
+      <div class="brand">
+        <a class="brand-logo-link" href="#home" aria-label="Ir para o início">
+          <img class="brand-logo" src="assets/images/gabryella-logo.png" alt="">
+        </a>
+        <span>Gabryella Freire</span>
+      </div>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
         <span class="material-symbols-outlined" aria-hidden="true">menu</span>
@@ -74,7 +79,7 @@
 
         <div class="about-copy">
           <p>Sou acadêmica do 3º semestre de <strong>Medicina Veterinária</strong> pela UniAteneu, movida por uma paixão genuína pelo cuidado animal. Minha trajetória é complementada por uma formação técnica em Auxiliar de Veterinária, o que me proporcionou uma base prática sólida desde o início dos meus estudos.</p>
-          <p>Simultaneamente, curso o 2º semestre de <strong>Administração</strong> na Uninter. Essa formação dupla me permite unir a sensibilidade clínica com uma visão estratégica de gestão, desenvolvendo competências em marketing, ferramentas office e um atendimento ao cliente de excelência, focado em resultados e empatia.</p>
+          <p>Simultaneamente, curso o 2º semestre de <strong>Administração</strong> na Uninter. Essa formação dupla me permite unir a sensibilidade clínica com uma visão estratégica de gestão, desenvolvendo competências em marketing, ferramentas office e um atendimento ao cliente de excelência, focado em resultados e empatia, conseguindo também trabalhar e focar na área da administração.</p>
 
           <ul class="pillars" aria-label="Áreas de atuação">
             <li>
@@ -231,13 +236,21 @@
             <span class="contact-icon material-symbols-outlined" aria-hidden="true">contact_mail</span>
             <h3>Conecte-se comigo</h3>
             <p>Estou ansiosa para aplicar meus conhecimentos em sua clínica ou empresa.</p>
-            <a
-              class="button button-primary"
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=gabyfreiire%40icloud.com&su=Contato%20pelo%20portf%C3%B3lio"
-              target="_blank"
-              rel="noopener noreferrer"
-              data-email-action
-            >Enviar email</a>
+            <div class="contact-actions">
+              <a
+                class="button button-primary"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=gabyfreiire%40icloud.com&su=Contato%20pelo%20portf%C3%B3lio"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-email-action
+              >Enviar email</a>
+              <a
+                class="button button-primary"
+                href="https://wa.me/5585988719476?text=Ol%C3%A1%21%20Vim%20atrav%C3%A9s%20da%20sua%20landing%20page%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade."
+                target="_blank"
+                rel="noopener noreferrer"
+              >WhatsApp</a>
+            </div>
           </div>
         </div>
       </div>
